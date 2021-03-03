@@ -1,1 +1,11 @@
-# Sign-Up-Form
+# Sign Up Form
+The form is simple form by using html, css, media query and some additions by JS
+## Using Skills:
+- Html/Html5
+- Css/Css5
+- Media Query
+- JavaScipt
+#### Screnshot of form:
+![sign up](https://user-images.githubusercontent.com/63051374/109841020-4fec1800-7c51-11eb-961b-909b78dbea65.jpg)
+![sign up2](https://user-images.githubusercontent.com/63051374/109841222-7f028980-7c51-11eb-82ca-9f3211c6f9c3.jpg)
+![smartmockups_klto3wcs](https://user-images.githubusercontent.com/63051374/109841226-8033b680-7c51-11eb-9819-816d545c81ec.jpg)
