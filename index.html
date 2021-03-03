@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page Title -->
+    <title>Sign Up Form</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="keyworads" content="">
+    <meta name="description" content="">
+    <meta name="author" content="Aseel Zuhair El-Najjar.">
+    <meta http-equiv="refresh" content="3600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style Links -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <!-- Start Form part -->
+            <div class="form-part">
+                <!-- Sign head -->
+                <div class="sign-up">
+                    <h1 class="sign-head">sign up</h1>
+                </div>
+                <form class="form-content" onsubmit="return false">
+                    <!-- User Name -->
+                    <label class="lbl-form" >user name:</label>
+                    <input class="f-input" id="user-name" type="text" placeholder="Name..." required>
+                    <!-- Email -->
+                    <label class="lbl-form">email:</label>
+                    <input class="f-input" id="email" type="email" placeholder="Email addess...." required>
+                    <!-- Password -->
+                    <label class="lbl-form">password:</label>
+                    <input class="f-input" id="passward" type="password" placeholder="*************" required>
+                    <!-- Repeat Passward -->
+                    <label class="lbl-form">repeat password:</label>
+                    <input class="f-input" type="password" placeholder="*************" required>
+                    <!-- Check Box -->
+                    <div class="checkbox">
+                    <input class="input-checkbox" id="ckb" type="checkbox" required>
+                    <label for="ckb" class="rm-txt">remember me</label>
+                    </div>
+                </form>
+                <div class="btn-links">
+                    <!-- Sign up botton and Socail Media -->
+                    <div class="form-btn">
+                        <button class="sign-btn" onclick="printInfo();">Sign Up</button>
+                        <span class="sg-para">Or</span>
+                        <div class="items">
+                            <a href="index.html" class="media" target="_blank" title="linkedin"><span class="fab fa-facebook-f"></span></a>
+                        </div>
+                        <div class="items">
+                            <a href="index.html" class="media" target="_blank" title="linkedin"><span class="fab fa-google"></span></a>
+                        </div>
+                        <div class="items">
+                            <a href="index.html" class="media" target="_blank" title="linkedin"><span class="fab fa-twitter"></span></a>
+                        </div>
+                        <div class="items">
+                            <a href="index.html" class="media" target="_blank" title="linkedin"><span class="fab fa-linkedin-in"></span></a>
+                        </div>
+                    </div>
+                    <div class="log-in">
+                        <span class="log-para">Do you have an account?</span>
+                        <a href="index.html" target="_blank" class="log-link">log in</a>
+                    </div>
+                    <!--  Error and success messages -->
+                    <div class="error-message" id="error-message"> </div>
+                </div>
+        </div>
+    </main>
+    <script>
+        console.log("JS Quiz");
+    </script>
+    <script src="js/myScript.js"></script>
+    <script src="js/strScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+/* Universel Selector 'all' */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Links */
+a {
+    text-decoration: none;
+}
+/* Input Form */
+input {
+    outline: none;
+    border: none;
+}
+/* fonts */
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf'); 
+} 
+/* Start body*/
+html, body, .main {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0) url(../img/5549.jpeg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Start form */
+.form-part {
+    width: 30%;
+    height: 600px;
+    background-color: rgba(0, 93, 129, 0.3);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding-left: 3%;
+}
+/* Sign up head */
+.sign-up {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-head {
+    font-family: 'Poppins-SemiBold';
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(255, 3, 167), 
+    -1px -1px 3px rgb(255, 3, 167);
+}
+/* form Content */
+.form-content {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.lbl-form {
+    font-family: 'Poppins-SemiBold';
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #cac7c7;
+    margin-bottom: 2%;
+}
+.f-input {
+    width: 80%;
+    height: 30px;
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+    color: #cecdcd;
+    background-color: rgba(0, 93, 129, 0);
+    border-bottom: 1px solid #e698ae;
+    margin-bottom: 2%; 
+    transition: all 0.5s linear ;
+    -webkit-transition: all 0.5s linear ;
+    -moz-transition: all 0.5s linear ;
+    -ms-transition: all 0.5s linear ;
+    -o-transition: all 0.5s linear ;
+}
+input:focus {
+    border-bottom: 2px solid rgb(153, 2, 2);
+}
+/* Check Box */
+.checkbox {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.rm-txt {
+    font-family: 'Poppins-Regular';
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fffefe;
+    margin-left: 10px;
+}
+/* Button and Links */
+.btn-links {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+.text {}
+.sign-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 30px;
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color:#000017;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    transition:  background-color 1s linear 0s;
+    -webkit-transition:  background-color 1s linear 0s;
+    -moz-transition:  background-color 1s linear 0s;
+    -ms-transition:  background-color 1s linear 0s;
+    -o-transition:  background-color 1s linear 0s;
+}
+.sign-btn:hover,
+.items:hover {
+    color: #000;
+    font-weight: bolder;
+    background-color: #f5d5cf;
+    border: 1px solid rgb(153, 2, 2);
+    box-shadow: 2px 2px  5px 1px rgb(73, 73, 73);
+}
+.sg-para {
+    color: rgb(255, 255, 255);
+}
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #bbcbff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.log-para {
+    color: rgb(190, 190, 190);
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+}
+.log-link {
+    color: #0000fa;
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+}
+.log-link:hover {
+    color:  rgb(153, 2, 2);
+}
+.message {
+    width: 100%;
+    min-height: 30px;
+    font-family: 'Poppins-Regular';
+    font-size: 20px;
+    color: #fff;
+}
