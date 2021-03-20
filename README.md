@@ -1,7 +1,7 @@
 # Sign Up Form
 The form is simple form by using html, css, media query and some additions by JS
 
- ## Visit Site :boom:
+ ## Visit Site: :boom:
  
  **[Click here](https://aseelalnajar2001.github.io/Sign-Up-Form/)**
 
